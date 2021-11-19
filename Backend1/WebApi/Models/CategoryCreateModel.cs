@@ -10,5 +10,6 @@ namespace WebApi.Models
     {
         [Required]
         public string Name { get; set; }
+
     }
 }

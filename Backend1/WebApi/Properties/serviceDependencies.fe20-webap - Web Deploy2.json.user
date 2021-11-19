@@ -1,0 +1,39 @@
+{
+  "dependencies": {
+    "secrets1": {
+      "restored": true,
+      "restoreTime": "2021-11-19T08:00:31.2369438Z"
+    },
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2021-11-19T08:02:45.7519113Z"
+    }
+  },
+  "parameters": {
+    "fe20-webap.resourceGroupLocation": {
+      "Name": "fe20-webap.resourceGroupLocation",
+      "Type": null,
+      "Value": "westeurope"
+    },
+    "fe20-webap.resourceGroupName": {
+      "Name": "fe20-webap.resourceGroupName",
+      "Type": "resourceGroup",
+      "Value": "fe20"
+    },
+    "fe20-webap.resourceName": {
+      "Name": "fe20-webap.resourceName",
+      "Type": null,
+      "Value": "fe20-webap"
+    },
+    "fe20-webap.subscriptionId": {
+      "Name": "fe20-webap.subscriptionId",
+      "Type": "subscription",
+      "Value": "4c909e5c-1025-4d27-8f17-9cc3718e6bd6"
+    },
+    "subscriptionId": {
+      "Name": "subscriptionId",
+      "Type": "subscription",
+      "Value": "4c909e5c-1025-4d27-8f17-9cc3718e6bd6"
+    }
+  }
+}
