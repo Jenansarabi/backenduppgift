@@ -447,11 +447,6 @@ C:\Users\sarab\Desktop\backend1\BE1\Backend1\AspNetMvc\bin\Debug\net5.0\Azure.Ex
 C:\Users\sarab\Desktop\backend1\BE1\Backend1\AspNetMvc\bin\Debug\net5.0\Azure.Identity.dll
 C:\Users\sarab\Desktop\backend1\BE1\Backend1\AspNetMvc\bin\Debug\net5.0\Azure.Security.KeyVault.Secrets.dll
 C:\Users\sarab\Desktop\backend1\BE1\Backend1\AspNetMvc\bin\Debug\net5.0\Microsoft.Identity.Client.Extensions.Msal.dll
-C:\Users\sarab\Desktop\backend1\BE1\Backend1\AspNetMvc\obj\Debug\net5.0\AspNetMvc.RazorComponent.input.cache
-C:\Users\sarab\Desktop\backend1\BE1\Backend1\AspNetMvc\obj\Debug\net5.0\RazorDeclaration\Pages\ProductDetails.razor.g.cs
-C:\Users\sarab\Desktop\backend1\BE1\Backend1\AspNetMvc\obj\Debug\net5.0\AspNetMvc.RazorComponent.output.cache
-C:\Users\sarab\Desktop\backend1\BE1\Backend1\AspNetMvc\obj\Debug\net5.0\RazorDeclaration\AspNetMvc.dll
-C:\Users\sarab\Desktop\backend1\BE1\Backend1\AspNetMvc\obj\Debug\net5.0\Razor\Pages\ProductDetails.razor.g.cs
 C:\Users\sarab\Desktop\backend1\BE1\Backend1\AspNetMvc\bin\Debug\net5.0\Microsoft.ApplicationInsights.dll
 C:\Users\sarab\Desktop\backend1\BE1\Backend1\AspNetMvc\bin\Debug\net5.0\Microsoft.ApplicationInsights.AspNetCore.dll
 C:\Users\sarab\Desktop\backend1\BE1\Backend1\AspNetMvc\bin\Debug\net5.0\Microsoft.AI.DependencyCollector.dll
@@ -464,3 +459,5 @@ C:\Users\sarab\Desktop\backend1\BE1\Backend1\AspNetMvc\bin\Debug\net5.0\Microsof
 C:\Users\sarab\Desktop\backend1\BE1\Backend1\AspNetMvc\bin\Debug\net5.0\Microsoft.Extensions.PlatformAbstractions.dll
 C:\Users\sarab\Desktop\backend1\BE1\Backend1\AspNetMvc\bin\Debug\net5.0\System.Diagnostics.PerformanceCounter.dll
 C:\Users\sarab\Desktop\backend1\BE1\Backend1\AspNetMvc\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\sarab\Desktop\backend1\BE1\Backend1\AspNetMvc\obj\Debug\net5.0\Razor\Views\Products\Details.cshtml.g.cs
+C:\Users\sarab\Desktop\backend1\BE1\Backend1\AspNetMvc\obj\Debug\net5.0\Razor\Views\Products\Create.cshtml.g.cs

@@ -16,15 +16,20 @@ namespace AspNetMvc.Controllers
         public async Task<ActionResult> Index()
         {
             var http = new HttpClient();
-            var products = await http.GetFromJsonAsync<List<Product>>("https://localhost:44339/api/Products"); 
-
+            var products = await http.GetFromJsonAsync<List<Product>>("https://fe20-webap.azurewebsites.net/api/Products"); 
             return View(products);
         }
 
+
         // GET: ProductsController/Details/5
-        public ActionResult Details(int id)
+        public async Task<ActionResult> Details(int id)
         {
-            return View();
+            var http = new HttpClient();
+            var product = await http.GetFromJsonAsync<Product>($"https://fe20-webap.azurewebsites.net/api/Products/{id}");
+            return View(product);
+
+
+          
         }
 
         // GET: ProductsController/Create
@@ -36,10 +41,12 @@ namespace AspNetMvc.Controllers
         // POST: ProductsController/Create
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public ActionResult Create(IFormCollection collection)
+        public async Task<ActionResult> Create(Product product)
         {
             try
             {
+                var client = new HttpClient();
+                await client.PostAsJsonAsync("https://fe20-webap.azurewebsites.net/api/Products", product);
                 return RedirectToAction(nameof(Index));
             }
             catch
